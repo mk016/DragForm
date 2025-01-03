@@ -4,7 +4,8 @@ import Canvas from './components/Canvas';
 const Home: React.FC = () => {
   return (
     <div>
-      <h1>No-Code Platform</h1>
+      <h1>DragForm</h1>
+      <h2></h2>
       <Canvas />
     </div>
   );
