@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useRef, useState } from 'react';
 import { useDrop } from 'react-dnd';
@@ -30,7 +30,6 @@ const Canvas: React.FC = () => {
     },
   });
 
-  // Attach the drop ref to the canvas DOM element
   drop(canvasRef);
 
   return (
